@@ -2,6 +2,23 @@
 
 This is just a toy chat server I wrote to get more comfortable/reacquainted with WebSockets!
 
+## Dependencies
+
+The only dependency is the [EM-WebSocket library](https://github.com/igrigorik/em-websocket/).
+To install it, just run:
+
+```shell
+gem install em-websocket
+```
+
+## Running the Server
+
+To run the server:
+
+```shell
+ruby em-ws.rb
+```
+
 ## Message Format
 
 The format for a message, both to and from the client, is:
